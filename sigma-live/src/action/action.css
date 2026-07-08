@@ -1,0 +1,83 @@
+.action-wrap { display: flex; flex-direction: column; gap: 24px; }
+
+.action-card {
+  background: #161b27;
+  border: 1px solid #2d3748;
+  border-radius: 12px;
+  padding: 28px;
+}
+
+.action-title { font-size: 15px; font-weight: 600; color: #e2e8f0; margin-bottom: 6px; }
+
+.action-desc { font-size: 13px; color: #64748b; margin-bottom: 24px; }
+
+.action-form { display: flex; flex-direction: column; gap: 16px; }
+
+.form-row { display: flex; gap: 16px; flex-wrap: wrap; }
+
+.form-group { display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 160px; }
+
+.form-group label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
+
+.form-group input,
+.form-group select {
+  background: #0f1117;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  color: #e2e8f0;
+  padding: 10px 12px;
+  font-size: 13px;
+  outline: none;
+  transition: border 0.15s;
+}
+
+.form-group input:focus,
+.form-group select:focus { border-color: #6366f1; }
+
+.readonly-field {
+  background: #0a0d14;
+  border: 1px solid #1e2535;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.submit-btn {
+  align-self: flex-start;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.submit-btn:hover { background: #4f46e5; }
+
+.form-msg { font-size: 13px; padding: 8px 12px; border-radius: 6px; }
+.form-msg.success { background: #1a3328; color: #34d399; }
+.form-msg.error { background: #3f1f1f; color: #f87171; }
+
+.supplier-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+.supplier-tile {
+  background: #0f1117;
+  border: 1px solid #2d3748;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.supplier-name { font-size: 13px; font-weight: 500; color: #e2e8f0; }
+.supplier-lead { font-size: 12px; color: #64748b; }
+
+.badge { padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 500; width: fit-content; }
+.badge.high { background: #3f1f1f; color: #f87171; }
+.badge.medium { background: #3f3520; color: #f59e0b; }
+.badge.low { background: #1a3328; color: #34d399; }

@@ -1,0 +1,49 @@
+{
+  "products": [
+    { "id": "P001", "name": "MOSFET Transistor", "supplier_id": "S001", "unit": "units" },
+    { "id": "P002", "name": "Ceramic Capacitor", "supplier_id": "S002", "unit": "units" },
+    { "id": "P003", "name": "Silicon Wafer", "supplier_id": "S001", "unit": "wafers" },
+    { "id": "P004", "name": "Copper Interconnect", "supplier_id": "S003", "unit": "meters" },
+    { "id": "P005", "name": "Photoresist Chemical", "supplier_id": "S002", "unit": "liters" }
+  ],
+  "suppliers": [
+    { "id": "S001", "name": "Taiwan Micro Supply", "lead_time_days": 45, "risk": "High" },
+    { "id": "S002", "name": "Korea Parts Co.", "lead_time_days": 21, "risk": "Medium" },
+    { "id": "S003", "name": "US Materials Inc.", "lead_time_days": 10, "risk": "Low" }
+  ],
+  "inventory": [
+    { "product_id": "P001", "month": "May", "qty_on_hand": 1200 },
+    { "product_id": "P001", "month": "Jun", "qty_on_hand": 850 },
+    { "product_id": "P001", "month": "Jul", "qty_on_hand": 400 },
+    { "product_id": "P002", "month": "May", "qty_on_hand": 5000 },
+    { "product_id": "P002", "month": "Jun", "qty_on_hand": 3800 },
+    { "product_id": "P002", "month": "Jul", "qty_on_hand": 3200 },
+    { "product_id": "P003", "month": "May", "qty_on_hand": 300 },
+    { "product_id": "P003", "month": "Jun", "qty_on_hand": 180 },
+    { "product_id": "P003", "month": "Jul", "qty_on_hand": 60 },
+    { "product_id": "P004", "month": "May", "qty_on_hand": 900 },
+    { "product_id": "P004", "month": "Jun", "qty_on_hand": 900 },
+    { "product_id": "P004", "month": "Jul", "qty_on_hand": 870 },
+    { "product_id": "P005", "month": "May", "qty_on_hand": 420 },
+    { "product_id": "P005", "month": "Jun", "qty_on_hand": 310 },
+    { "product_id": "P005", "month": "Jul", "qty_on_hand": 95 }
+  ],
+  "demand_forecasts": [
+    { "product_id": "P001", "month": "May", "forecast_qty": 900 },
+    { "product_id": "P001", "month": "Jun", "forecast_qty": 1100 },
+    { "product_id": "P001", "month": "Jul", "forecast_qty": 1400 },
+    { "product_id": "P002", "month": "May", "forecast_qty": 2000 },
+    { "product_id": "P002", "month": "Jun", "forecast_qty": 2400 },
+    { "product_id": "P002", "month": "Jul", "forecast_qty": 2800 },
+    { "product_id": "P003", "month": "May", "forecast_qty": 200 },
+    { "product_id": "P003", "month": "Jun", "forecast_qty": 250 },
+    { "product_id": "P003", "month": "Jul", "forecast_qty": 300 },
+    { "product_id": "P004", "month": "May", "forecast_qty": 400 },
+    { "product_id": "P004", "month": "Jun", "forecast_qty": 420 },
+    { "product_id": "P004", "month": "Jul", "forecast_qty": 450 },
+    { "product_id": "P005", "month": "May", "forecast_qty": 300 },
+    { "product_id": "P005", "month": "Jun", "forecast_qty": 350 },
+    { "product_id": "P005", "month": "Jul", "forecast_qty": 400 }
+  ],
+  "supply_updates": []
+}
